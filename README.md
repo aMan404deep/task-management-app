@@ -68,8 +68,7 @@ This will start the application and open it in your default web browser. If it d
 ```java
 task-management-app/
 ├── public/
-│   ├── tasks.json
-│   └── index.html
+│   └── tasks.json
 ├── src/
 │   ├── components/
 │   │   ├── CustomForm.jsx
@@ -84,4 +83,24 @@ task-management-app/
 │   ├── index.js
 │   └── index.css
 └── package.json
+└── index.html
 ```
+
+# Key Files
+
+• App.jsx: Main component managing the state and routing.
+• CustomForm.jsx: Form component for adding tasks.
+• EditForm.jsx: Form component for editing tasks.
+• TaskList.jsx: Component displaying the list of tasks.
+• TaskItem.jsx: Component representing an individual task.
+• Search.jsx: Component providing search functionality.
+• tasks.json: Dummy data file containing initial tasks.
+
+# Conclusion
+
+This task management app demonstrates the use of React for building a simple yet functional application with state management, search functionality, and a responsive UI. Feel free to explore and modify the code to suit your needs. Happy coding!
+
+
+
+
+
