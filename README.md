@@ -89,11 +89,17 @@ task-management-app/
 # Key Files
 
 • App.jsx: Main component managing the state and routing.
+
 • CustomForm.jsx: Form component for adding tasks.
+
 • EditForm.jsx: Form component for editing tasks.
+
 • TaskList.jsx: Component displaying the list of tasks.
+
 • TaskItem.jsx: Component representing an individual task.
+
 • Search.jsx: Component providing search functionality.
+
 • tasks.json: Dummy data file containing initial tasks.
 
 # Conclusion
