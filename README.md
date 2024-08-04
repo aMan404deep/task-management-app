@@ -44,3 +44,11 @@ Instructions to Set Up and Run the Application
 
 # Prerequisites
 Node.js and npm should be installed on your machine.
+
+# Setup
+
+1. Clone the Repository:
+``` sh
+git clone https://github.com/your-username/task-management-app.git
+cd task-management-app
+```
