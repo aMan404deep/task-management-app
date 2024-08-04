@@ -48,7 +48,7 @@ Node.js and npm should be installed on your machine.
 # Setup
 
 1. Clone the Repository:
-```sh
+```console
 git clone https://github.com/your-username/task-management-app.git
 cd task-management-app
 ```
@@ -59,4 +59,29 @@ npm install
 3. Start the Application:
 ```console
 npm start
+```
+
+This will start the application and open it in your default web browser. If it doesn't, you can manually open your browser and navigate to http://localhost:5173.
+
+# Folder Structure
+
+```java
+task-management-app/
+├── public/
+│   ├── tasks.json
+│   └── index.html
+├── src/
+│   ├── components/
+│   │   ├── CustomForm.jsx
+│   │   ├── EditForm.jsx
+│   │   ├── TaskList.jsx
+│   │   ├── TaskItem.jsx
+│   │   └── Search.jsx
+│   ├── hooks/
+│   │   └── useLocalStorage.js
+│   ├── App.jsx
+│   ├── App.module.css
+│   ├── index.js
+│   └── index.css
+└── package.json
 ```
