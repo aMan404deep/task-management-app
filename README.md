@@ -52,3 +52,11 @@ Node.js and npm should be installed on your machine.
 git clone https://github.com/your-username/task-management-app.git
 cd task-management-app
 ```
+2. Install Dependencies:
+```console
+npm install
+```
+3. Start the Application:
+```console
+npm start
+```
